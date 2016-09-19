@@ -13,6 +13,6 @@ int main(void)
 		// wait for 500 ms
 		_delay_ms(500);
 		// turn LED off
-		PORTB = PORTB | 1; 		
+		PORTB = PORTB & 0; 		
 	}
 }
